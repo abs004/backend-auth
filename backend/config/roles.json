@@ -1,0 +1,25 @@
+{
+  "roles": [
+    {
+      "name": "admin",
+      "permissions": [
+        "view_users",
+        "view_tasks"
+      ]
+    },
+    {
+      "name": "manager",
+      "permissions": [
+        "assign_tasks",
+        "view_progress"
+      ]
+    },
+    {
+      "name": "user",
+      "permissions": [
+        "view_assigned_tasks",
+        "update_progress"
+      ]
+    }
+  ]
+}
